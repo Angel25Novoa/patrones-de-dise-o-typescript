@@ -79,3 +79,9 @@ orderedData.add(2);
 orderedData.add(1);
 
 console.log(orderedData.get());
+
+const uniqueItems = uniqueData.operation((e: number) => e*2);
+const orderedItems = orderedData.operation((e: number) => e*2);
+
+console.log(uniqueItems);
+console.log(orderedItems);
